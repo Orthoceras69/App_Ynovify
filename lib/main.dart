@@ -45,8 +45,7 @@ class _MyHomePageState extends State<MyHomePage> {
     Music('Enemy', 'Imagine Dragons', 'assets/img/Arcane.jpeg',
         'https://music.florian-berthier.com/Enemy%20-%20Imagine%20Dragons.mp3'),
     Music('Guns for Hire', 'Woodkid', 'assets/img/Arcane.jpeg',
-        'https://music.florian-berthier.com/Guns%20for%20Hire%20-%20Woodkid.mp3'),
-    Music(title, singer, imagePath, urlSong)
+        'https://music.florian-berthier.com/Guns%20for%20Hire%20-%20Woodkid.mp3')
   ];
 
   final _player = AudioPlayer();
